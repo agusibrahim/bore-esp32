@@ -1,0 +1,33 @@
+{
+  "name": "BoreClient",
+  "version": "1.0.0",
+  "description": "Bore TCP tunnel client for ESP32 - expose local ports to public internet",
+  "keywords": "tunnel,tcp,bore,nat,proxy",
+  "authors": [
+    {
+      "name": "Bore ESP32 Port"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ekzhang/bore"
+  },
+  "license": "MIT",
+  "frameworks": "arduino",
+  "platforms": "espressif32",
+  "dependencies": [
+    {
+      "name": "ArduinoJson",
+      "version": "^7.0.0"
+    }
+  ],
+  "examples": [
+    {
+      "name": "Simple Web Server",
+      "base": "examples/simple_web_server",
+      "files": [
+        "src/main.cpp"
+      ]
+    }
+  ]
+}
